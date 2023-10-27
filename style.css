@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playpen+Sans:wght@500&display=swap');
+*{
+
+
+}
+.gameinfo{
+	font-family: 'Dancing Script', cursive;
+    font-family: 'Playpen Sans', cursive;
+    margin-left: 80px;
+}
+
+nav{
+	background-color: rgb(37, 9, 37);
+	color: white;
+	height: 75px;
+	font-size: 27px;
+	display: flex;
+	align-items: center;
+	padding: 0 12px;
+	font-family: 'Dancing Script', cursive;
+    font-family: 'Playpen Sans', cursive;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+.gameContainer{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.container{
+	display: grid;
+	grid-template-rows: repeat(3, 10vw);
+	grid-template-columns: repeat(3, 10vw);
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.box{
+	border: 2px solid gray;
+	font-size: 8vW;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box:hover{
+	background-color: limegreen;
+
+}
+
+.gameinfo{
+	padding: 0 20px ;
+}
+
+.br-0{
+	border-right: 0;
+}
+
+.bl-0{
+	border-left: 0;
+}
+
+.bt-0{
+	border-top: 0;
+}
+
+.bb-0{
+	border-bottom: 0;
+}
+
+#resetbtn {
+    margin: 0 23px;
+    padding: 1px 18px;
+    background: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Playpen Sans', cursive;
+
+}
+
+#resetbtn:hover{
+	background-color: orangered;
+}
+
+.info{
+	font-size: 19px;
+	font-family: 'Dancing Script', cursive;
+    font-family: 'Playpen Sans', cursive;
+}
+
